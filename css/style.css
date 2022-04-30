@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+  }
+  .navbar {
+    top: 0%;
+    cursor: pointer;  
+  }
+  header {
+    position: sticky;
+    top: 0%;
+    padding: 5px;
+  }
+  header ul {
+    position: sticky;
+    top: 0%;
+    float: right;
+    color: #737373;
+  }
+  header li {
+    position: sticky;
+    top: 0%;
+    display: inline;
+    padding: 170px;
+  }
+  .header img {
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    max-width: 10px;
+    max-height: 10px;
+    padding: 5px;
+  }
+  .contactContainer form {
+  position: absolute;
+  left: 40%;
+  width: 40%;
+  margin: 30px;
+  text-align: left;
+  margin-left: auto;
+}
+.contactContainer img {
+  display: inline-block;
+  width: 500px;
+}
+
+.twoContainer {
+    background-color: #EBE1DA;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.twoContainer img {
+    max-width: 700px;
+    max-height: 600px;
+  }
+.btn-primary {
+    position: absolute;
+    background-color: #B45E15;
+    color: white;
+    font-size: 16px;
+    padding: 4px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+.btn-primary:hover {
+    background-color: #4B5260;
+  }
+  .partners img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  footer{
+    background-color: #5E6678;
+    padding: 10px;
+    font-family: ‘Fredoka’, sans-serif;
+  }
+
+  footer img{
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 5px;
+  }
+  footer ul{
+    list-style: none;
+    padding-left: 0px;
+  }
+  footer li{
+    display: inline-block;
+    padding: 0px 30px;
+    color: #FFF8EF;
+  }
+  hr {
+    border: 9;
+    border-top: 1px solid #FFF8EF;
+    width: 50%;
+    margin-left: 0;
+      }
+footer h4{
+    color: #FFF8EF;
+    padding: 0px 30px;
+      }
+footer p{
+    color: #FFF8EF;
+    padding: 0px 30px;
+      }
+footer i{
+    padding: 0px 10px;
+    cursor: pointer;
+      }
+.row {
+    display: flex;
+    grid-template-columns:(1fr, 1fr);
+    grid-gap: 5px;
+    }
+
+  @media only screen and (max-width: 37.5em) {
+    div.card-image img {
+      width: 100%;
+      height: auto;
+    }
+    .card-image {
+       flex-direction: column;
+    }
+    .card {
+      width: 70%;
+      margin-top: 10px;
+    }
+  }
+html {
+  scroll-behavior: smooth;
+}
+
+
