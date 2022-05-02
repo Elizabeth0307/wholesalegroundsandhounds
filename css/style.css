@@ -1,37 +1,77 @@
 body {
-    margin: 0;
+    margin-left: 0%;
+    font-family:‘Fredoka’, sans-serif;
   }
-  .navbar {
-    top: 0%;
-    cursor: pointer;  
-  }
-  header {
-    position: sticky;
-    top: 0%;
-    padding: 5px;
-  }
-  header ul {
-    position: sticky;
-    top: 0%;
-    float: right;
+  a:link {
     color: #737373;
+    background-color: transparent;
+    text-decoration: none;
   }
-  header li {
-    position: sticky;
-    top: 0%;
-    display: inline;
-    padding: 170px;
+  
+  a:visited {
+    color: #737373;
+    background-color: transparent;
+    text-decoration: none;
   }
-  .header img {
-    display: inline-flex;
-    justify-content: left;
-    align-items: center;
-    max-width: 10px;
-    max-height: 10px;
-    padding: 5px;
+  
+  a:hover {
+    color: #B45E15;
+    background-color: transparent;
+    text-decoration: dotted;
   }
+  
+  a:active {
+    color: #B45E15;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+    .navbar {
+      top: 0%;
+      cursor: pointer;  
+    }
+    header {
+      font-family:‘Fredoka’, sans-serif;
+      width: 70%;
+      position: sticky;
+      top: 0%;
+      padding: 5px;
+      color: #737373;
+    }
+    header ul {
+      text-align: center;
+      position: sticky;
+      top: 0%;
+      float: right;
+      color: #737373;
+    }
+    header li {
+      font-family:‘Fredoka’, sans-serif;
+      text-align: center;
+      position: sticky;
+      top: 0%;
+      display: inline;
+      padding: 50px;
+      color: #737373;
+    }
+  .icons{
+      float: right;
+      justify-content: space-between;
+      max-width: 10%;
+      max-height: 10%;
+    }
+    .header img {
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 10px;
+      max-height: 10px;
+      padding: 5px;
+    }
   .contactContainer form {
+  font-family:‘Fredoka’, sans-serif;
   position: absolute;
+  top: 20%;
   left: 40%;
   width: 40%;
   margin: 100px;
@@ -44,7 +84,9 @@ body {
 }
 
 .twoContainer {
-    background-color: #EBE1DA;
+  font-family:‘Fredoka’, sans-serif;
+  width: 100%;
+  background-color: #EBE1DA;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -62,6 +104,22 @@ body {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+  }
+  .btn-secondary {
+    justify-items: center;
+    align-items: center;
+    margin: 20%;
+    padding: 4px 20px;
+    background-color: #B45E15;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .modal-content {
+    font-family:‘Fredoka’, sans-serif;
+    background-color: #EBE1DA;
   }
   
 .btn-primary:hover {
